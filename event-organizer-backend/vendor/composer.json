@@ -1,0 +1,16 @@
+{
+    "name": "uep-event-booking/eventorganizer-backend",
+    "require": {
+        "php": ">=7.4",
+        "firebase/php-jwt": "^6.4"
+    },
+    "autoload":{
+        "psr-4": {
+            "Core\\": "core/",
+            "Models\\": "models/",
+            "Repositories": "repositories/",
+            "Services": "services/",
+            "Controllers\\": "controllers/"
+        }
+    }
+}
